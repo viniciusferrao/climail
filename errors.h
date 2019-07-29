@@ -1,0 +1,28 @@
+/*
+ *
+ * Errors
+ *
+ */
+
+#ifndef __ERRORS_H__
+#define __ERRORS_H__
+
+#define OK 0
+#define NO_ARGS 1
+
+#define FAILED_GETHOSTBYNAME 101
+#define FAILED_OPEN_SOCKET 102
+#define FAILED_CONNECT 103
+
+#define ERROR_OPENING_FILE 200
+#define ERROR_OPENING_INPUTFILE 201
+#define ERROR_OPENING_OUTPUTFILE 202
+
+#define ERROR_SMTP_SERVER 300
+#define ERROR_SMTP_HELO 301
+#define ERROR_SMTP_DATA 302
+#define ERROR_SMTP_BODY 303
+#define ERROR_SMTP_FROM 304
+#define ERROR_SMTP_TO 305
+
+#endif
